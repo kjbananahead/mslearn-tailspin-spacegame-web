@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'windows-latest'
+pool: Self-hosted VMSS
 
 variables:
   solution: '**/*.sln'
